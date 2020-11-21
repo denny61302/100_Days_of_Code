@@ -63,7 +63,7 @@ def process(coffee_option):
             resources['milk'] -= MENU[coffee_option]['ingredients']['milk']
             resources['coffee'] -= MENU[coffee_option]['ingredients']['coffee']
             print(f"Here is ${change} in change.")
-            print("Here is your latte ☕️. Enjoy!")
+            print(f"Here is your {coffee_option} ☕️. Enjoy!")
         else:
             print("Sorry that's not enough money. Money refunded.")
 
